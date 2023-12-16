@@ -1,0 +1,63 @@
+
+$dark: #0A1F38;
+$dark-middle: #1B2F46;
+$dark-light: #2F4056;
+$gray: #9DA5AF;
+$green: #A5BB0C;
+$green-dark: #819400;
+$green-light: #B1C909;
+$green-middle: #97AB0D;
+
+#app{
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  min-height: 100vh;
+  background-color: $dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  padding: var(--40, 40px) var(--160, 160px);
+  justify-content: space-between;
+  align-items: center;
+}
+
+html, body {
+  height: auto;
+  padding: 0; 
+  margin: 0;
+}
+
+.cs-button{
+  display: flex;
+  padding: 12px 24px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  border-radius: 32px;
+  border: unset;
+  background-color: $green-light;
+}
+
+.cs-button:hover{
+  background-color: $green-middle;
+}
+
+.cs-button:active{
+  background-color: $green-dark;
+}
+
+// .cs-button >*:nth-child(2n+1){
+//   padding: 0px 25px;
+// }
+
+.cs-button >*:nth-child(2n+2){
+  padding: 0px 0px 0px 12px;
+}
+
