@@ -1,18 +1,22 @@
 <template>
   <div id="app">
     <div class="header">
-      <img src="./assets/logo.png" alt="">
+      <img src="./assets/logo.svg" alt="">
       <cs-button icon="login">Вход</cs-button>
+    </div>
+    <div class="main">
+      <div></div>
+      <pageLogo></pageLogo>
     </div>
   </div>
 </template>
 
 <script>
 import csButton from './components/cs-button.vue'
-// import HelloWorld from './components/HelloWorld.vue'
+import pageLogo from './assets/pageLogo.vue'
 
 export default {
-  components: { csButton },
+  components: { csButton, pageLogo },
   name: 'App',
   data () {
     return {
