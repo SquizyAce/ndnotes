@@ -5,7 +5,10 @@
       <cs-button icon="login">Вход</cs-button>
     </div>
     <div class="main">
-      <div></div>
+      <div class="main__descBlock">
+        <span>Мои заметки</span>
+        <span>Не забывай о важном, храни его в облаке.</span>
+      </div>
       <pageLogo></pageLogo>
     </div>
   </div>
