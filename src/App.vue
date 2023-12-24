@@ -6,8 +6,8 @@
     </div>
     <div class="main">
       <div class="main__descBlock">
-        <span>Мои заметки</span>
-        <span>Не забывай о важном, храни его в облаке.</span>
+        <span>Мои <br>заметки</span>
+        <span>Не забывай о важном,<br> храни его в облаке.</span>
       </div>
       <pageLogo></pageLogo>
     </div>
